@@ -2,6 +2,9 @@
 
 C'est un artefact créé par Claude Sonnet pour créer un timer Pomodoro en React.
 
+<img width="1709" alt="image" src="https://github.com/user-attachments/assets/93acb9da-2b66-4e45-8cd7-3a0a7d46a208">
+
+
 Le prompt : https://claude.site/artifacts/ba7e380f-c812-415b-9852-3197c88994eb
 
 <details>
