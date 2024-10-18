@@ -1,6 +1,6 @@
 # Pomodo timer with Claude sonnet 3.5
 
-C'est un artefact créé par Claude Sonnet pour créer un timer Pomodoro en React.
+C'est un artefact généré par Claude.ai en Vite + React ts + shadcn/tailwind.
 
 <img width="1709" alt="image" src="https://github.com/user-attachments/assets/93acb9da-2b66-4e45-8cd7-3a0a7d46a208">
 
