@@ -116,7 +116,15 @@ Le prompt : https://claude.site/artifacts/ba7e380f-c812-415b-9852-3197c88994eb
 <details>
   <summary>Deploying to GitHub pages</summary>
 
-  <p>see https://github.com/ErickKS/vite-deploy</p>
+  <p>see https://vite.dev/guide/static-deploy#github-pages.</p>
+  
+  <p>Previously, I have used this repo, [vite-deploy](https://github.com/ErickKS/vite-deploy) but it has error in .yml and there is a 404 error. On the README, it forwards to a video which make a redirect which is not a robust solution.</p>
+
+  The solution is 
+
+  - to use the commands on the vite documentation (see up). 
+  - to rewrite the .yml to use yarn instead of npm
+  - to go to GitHub settings > Environments > github-pages > and changing the allowed branch (it was github-pages, it should be main) ([ref](https://github.com/orgs/community/discussions/39054))
 </details>
 
 ## Build

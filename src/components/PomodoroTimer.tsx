@@ -110,7 +110,7 @@ const PomodoroTimer = () => {
 
   useEffect(() => {
     const handleKeyPress = (event: KeyboardEvent) => {
-      if (event.metaKey && event.code === 'Space') {
+      if (event.key.toLowerCase() === "p") {
         event.preventDefault();
         toggleTimer();
       }
@@ -195,7 +195,7 @@ const PomodoroTimer = () => {
             </Sheet>
           </div>
           <CardDescription>
-            Press space or cmd+space to start/pause
+            Press 'p' to play or pause
             <br />
             Press 't' to edit task
           </CardDescription>
