@@ -113,7 +113,11 @@ Le prompt : https://claude.site/artifacts/ba7e380f-c812-415b-9852-3197c88994eb
 
 </details>
 
-#
+<details>
+  <summary>Deploying to GitHub pages</summary>
+
+  <p>see https://github.com/ErickKS/vite-deploy</p>
+</details>
 
 ## Build
 
@@ -126,4 +130,3 @@ yarn install
 ```shell
 yarn dev
 ```
-
